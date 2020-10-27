@@ -1,0 +1,71 @@
+body {
+    margin: 0%;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    background: url('../images/backimg.png') no-repeat center;
+    height: 800px;
+}
+.header__row {
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    padding-top: 20px;
+}
+.nav__menu {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.logo__title {
+    letter-spacing: 0.12em;
+    margin-top: 10px;
+
+}
+.menu {
+    color: white;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+.hero__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #D4C17F;
+    align-items: center;
+    padding-top: 200px;
+    font-size: 28px;
+    flex-direction: column;
+}
+.contackt {
+    margin-left: -160px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+.contack__title {
+    cursor: pointer;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
