@@ -256,7 +256,7 @@ body {
     padding-bottom: 50px;
 }
 .have {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
@@ -283,4 +283,59 @@ body {
     background: #D4C17F;
     width: 255px;
     height: 55px;
+}
+.footer {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    background: #2D343C;
+}
+.coll-3 {
+    width: 25%;
+}
+.footer__logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer__menu {
+    display: flex;
+}
+.footer__logoo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.footer__logoo li {
+    padding-bottom: 10px;
+}
+.footer__icon {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer__icon li {
+    padding-bottom: 10px;
+}
+.footer__icon img {
+    padding-right: 20px;
 }
