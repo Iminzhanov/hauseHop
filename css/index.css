@@ -68,4 +68,219 @@ body {
     margin-left: 120px;
     margin-right: 20px;
 }
+.hero {
+    background: #242B33;
+    display: flex;
+   
+}
+.hero__content {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 200px;
+    font-family: 'Roboto';
+}
+.hero__content p {
+    padding-top: 40px;
+}
+.bench {
+    padding-top: 40px;
+}
+.building {
+    padding-top: 40px;
+}
+.fountain {
+    padding-top: 40px;
+}
+.bicycle {
+    padding-top: 40px;
+    height: 80px;
+}
+.simvol {
+   margin-top: -60px;
+}
+.trends {
+    padding-top: 40px;
+    background-color: #242B33;
+}
+.trends__column h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-left: 30px;
+}
+.flat {
+    display: flex;
+}
+.flat img {
+    margin-left: 30px;
+}
+.flat span {
+    position: absolute;
+    color: white;
+    list-style: none;
+    margin-left: -450px;
+    margin-top: 250px;
+    font-size: 25px;
+}
+.simvol__3 {
+    position: absolute;
+    margin-left: -115px;
+    margin-top: 20px;
+}
+.flats {
+    display: flex;
 
+}
+.flats span {
+    position: absolute;
+    color: white;
+    list-style: none;
+    margin-left: -450px;
+    margin-top: 250px;
+    font-size: 25px;
+}
+.flats img {
+    margin-left: 30px;
+}
+.projeckt {
+    background: url('../images/backemail.png') no-repeat center;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.look {
+    margin: 0;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;  
+    color: #D4C17F;
+}
+.projeckt__item {
+    display: flex;
+    justify-content: space-around;
+}
+.text {
+    width: 50%;
+    color: white
+}
+.email {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.email input {
+    margin-bottom: 20px;
+    width: 40%;
+    margin-right: 10px;
+    height: 50px;
+    background-color: transparent;
+    color: #BEBEBE;
+    text-align: center;
+}
+.email p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+}
+.email button {
+    width: 250px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background: #D4C17F;
+    color: white;
+}
+.collection {
+    background: #242B33;
+    padding-top: 40px;
+}
+.video {
+    display: flex;
+    justify-content: flex-end;
+}
+.simvol4 {
+    height: 250px;
+    padding-top: 100px;
+}
+.photo4 {
+    height: 500px;
+}
+.vector {
+    position: absolute;
+    margin-left: -683px;
+    margin-top: 203px;
+}
+.features__item {
+    padding-top: 40px;
+    background: #242B33;
+    height: 416px;
+}
+.map {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;     
+     color: #D4C17F;
+}
+.features {
+    padding-top: 30px;
+}
+.simvol5 {
+
+}
+.maps {
+    position: absolute;
+    height: 280px;
+    margin-top: 56px;
+    margin-left: -179px;
+    width: 1000px;
+}
+.question {
+    background: #242B33;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.have {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+.base {
+    display: flex;
+    justify-content: space-around;
+
+}
+.base p {
+    color: white;
+    text-align: center;
+}
+.base input {
+    background: #FFFFFF;
+    opacity: 0.2;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+}
+.base button {
+    background: #D4C17F;
+    width: 255px;
+    height: 55px;
+}
