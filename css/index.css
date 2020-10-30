@@ -321,8 +321,10 @@ body {
 .footer__logoo li {
     padding-bottom: 10px;
 }
-.footer__icon {
-    color: white;
+.footer__icon a {
+    text-decoration: none;
+}
+.footer__icon li{
     list-style: none;
     text-decoration: none;
     font-family: Raleway;
@@ -332,10 +334,14 @@ body {
     line-height: 16px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+    
 }
 .footer__icon li {
     padding-bottom: 10px;
 }
 .footer__icon img {
     padding-right: 20px;
+}
+.footer__icon span {
+    color: #D4C17F;
 }
